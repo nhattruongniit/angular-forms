@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+.formPage {
+    margin: 0 auto;
+    display: flex;
+}
+
+.formPage ul {
+    border-right: 1px solid #000;
+    width:220px;
+}
+
+.formPage ul li {
+    list-style: none;
+    margin:10px 0;
+}
+
+.formPage ul li a {
+    color:#000;
+    text-decoration: none;
+}
+
+.formPage ul li a.active{
+    text-decoration: underline;
+    color:#f00;
+}
